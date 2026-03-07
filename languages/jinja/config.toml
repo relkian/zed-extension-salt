@@ -1,0 +1,5 @@
+name = "Salt"
+grammar = "jinja"
+path_suffixes = ["sls", "map.jinja", "macros.jinja", "pillar.example"]
+tab_size = 2
+hard_tabs = false
