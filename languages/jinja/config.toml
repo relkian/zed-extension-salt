@@ -3,3 +3,5 @@ grammar = "jinja"
 path_suffixes = ["sls", "map.jinja", "macros.jinja", "pillar.example"]
 tab_size = 2
 hard_tabs = false
+auto_indent_on_paste = false
+auto_indent_using_last_non_empty_line = false
