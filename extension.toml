@@ -13,4 +13,4 @@ repository = "https://github.com/relkian/zed-extension-salt"
 # for security reasons and to ensure repository availability over time.
 repository = "https://github.com/relkian/tree-sitter-jinja"
 path = "tree-sitter-jinja"
-commit = "7bd0422c6a57aaabfee8603502d7708d0a536f5f"
+commit = "045a6e55f3189b32316b74f568de00d76f40b8f2"
