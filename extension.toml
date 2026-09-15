@@ -1,6 +1,6 @@
 id = "salt"
 name = "Salt"
-version = "1.0.1"
+version = "1.1.0"
 schema_version = 1
 description = "Salt (AKA SaltStack) files syntax highlighting for Zed editor."
 authors = [
