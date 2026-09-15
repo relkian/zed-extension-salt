@@ -59,18 +59,19 @@
   "trans"
   "pluralize"
   "autoescape"
+  "required"
 ] @keyword
 
 [
-  "endtrans"
-  "endblock"
-  "endwith"
-  "endfilter"
-  "endmacro"
-  "endcall"
-  "endset"
-  "endtrans"
-  "endautoescape"
+  (endtrans_statement)
+  (endblock_statement)
+  (endwith_statement)
+  (endfilter_statement)
+  (endmacro_statement)
+  (endcall_statement)
+  (endset_statement)
+  (endtrans_statement)
+  (endautoescape_statement)
 ] @keyword
 
 (do_statement
@@ -92,9 +93,9 @@
 
 [
   "if"
-  "else"
-  "endif"
-  "elif"
+  (else_statement)
+  (endif_statement)
+  (elif_block)
 ] @keyword.conditional
 
 [
@@ -102,7 +103,7 @@
   "in"
   "continue"
   "break"
-  "endfor"
+  (endfor_statement)
 ] @keyword.repeat
 
 "call" @function.call
@@ -133,11 +134,12 @@
 
 "debug" @function.builtin
 
+; TODO: only match raw
 (raw_start) @keyword
 
-(raw_body) @markup.raw.block @nospell
-
 (raw_end) @keyword
+
+(raw_body) @markup.raw.block @nospell
 
 (builtin_test
   [
