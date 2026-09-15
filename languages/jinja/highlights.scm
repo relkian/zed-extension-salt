@@ -25,10 +25,7 @@
 
 "defined" @constant
 
-; Comment highlighting breaks when @comment is followed by @spell.
-; See: https://github.com/zed-industries/zed/issues/27535.
-;(comment) @comment @spell
-(comment) @comment
+(comment) @comment @spell
 
 [
   ","
