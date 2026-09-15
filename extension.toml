@@ -1,6 +1,6 @@
 id = "salt"
 name = "Salt"
-version = "1.0.0"
+version = "1.0.1"
 schema_version = 1
 description = "Salt (AKA SaltStack) files syntax highlighting for Zed editor."
 authors = [
@@ -13,4 +13,4 @@ repository = "https://github.com/relkian/zed-extension-salt"
 # for security reasons and to ensure repository availability over time.
 repository = "https://github.com/relkian/tree-sitter-jinja"
 path = "tree-sitter-jinja"
-commit = "7e254abb76618227806f6881525980231faa1610"
+commit = "c213d3745ccdcaaa858869181c7b1bf9557a025f"
